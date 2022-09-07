@@ -1,6 +1,4 @@
-# mc
-
-This is just a little project that I'm working on in my free time.
+# How to Compile/Run
 
 You MUST have the includes and libs downloaded and in the correct directories if you want this code to work without any changes. The reason they are not included in this repo is because of how many files there are.
 
