@@ -1,5 +1,5 @@
 # Overview
-This is just a little project im working on in my free time. This is a work in progress - it's not even close to done.
+This is a work in progress - it's not even close to done.
 
 Current state: window rendering with a quad, textured as the side of a grass block
 
