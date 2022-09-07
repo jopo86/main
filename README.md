@@ -1,5 +1,7 @@
-# Minecraft Clone
+# Overview
 This is just a little project im working on in my free time. This is a work in progress - it's not even close to done.
+
+Current state: window rendering with a quad, textured as the side of a grass block
 
 # How to Compile/Run
 You MUST have the includes and libs downloaded and in the correct directories if you want this code to work without any changes. The reason they are not included in this repo is because of how many files there are.
