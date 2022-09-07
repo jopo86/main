@@ -4,9 +4,13 @@ This is just a little project that I'm working on in my free time.
 
 You MUST have the includes and libs downloaded and in the correct directories if you want this code to work without any changes. The reason they are not included in this repo is because of how many files there are.
 
-Download a zip containing the "include" and "lib" files:\n
-MediaFire - https://www.mediafire.com/file/qeb2kgpk74uquoc/include_lib.zip/file \n
-MEGA - https://mega.nz/file/K1wXARAR#IMg39lu9uIINJXRV_xDk4QG51gTJONvV8sV0qFfIdow \n
+
+Download a zip containing the "include" and "lib" files:
+
+MediaFire - https://www.mediafire.com/file/qeb2kgpk74uquoc/include_lib.zip/file
+
+MEGA - https://mega.nz/file/K1wXARAR#IMg39lu9uIINJXRV_xDk4QG51gTJONvV8sV0qFfIdow
+
 
 Once downloaded, extract the zip and place both the "include" and "lib" files in the same directory as all the other base directories - "src", "assets", and ".vscode".
 
