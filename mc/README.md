@@ -3,9 +3,13 @@ This is a work in progress - it's not even close to done. It is a minecraft clon
 
 Additional Dependencies: 
 - GLFW (Graphics Library Framework - provides ability to program windows & read keyboard/mouse input)
+- GLFW link: https://www.glfw.org/download.html
 - GLAD (OpenGL Loader/Generator - provides ability to use modern OpenGL functions)
+- GLAD link: https://glad.dav1d.de/
 - GLM (OpenGL Mathematics - makes complicated math like matrices and vectors easier with a library of functions)
+- GLM link: https://github.com/g-truc/glm
 - STBI (or stb_image, loads images of many file types, in this case to be used for textures)
+- stb_image.h file (which is all you need): https://github.com/nothings/stb/blob/master/stb_image.h
 
 # Versions
 v0.0.2 - current - (9/7/22)
