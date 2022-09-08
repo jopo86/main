@@ -1,7 +1,17 @@
 # Overview
-This is a work in progress - it's not even close to done.
+This is a work in progress - it's not even close to done. It is a minecraft clone I am coding using the C++ lanugage and the OpenGL rendering API. 
 
-Current state: window rendering with a quad, textured as the side of a grass block
+Additional Dependencies: 
+- GLFW (Graphics Library Framework - handles windows & input)
+- GLAD (OpenGL Loader/Generator)
+- GLM (OpenGL mathematics - makes complicated math like matrices and vectors easier with a library of functions)
+- STBI (or stb_image, loads images of many file types, in this case to be used for textures).
+
+# Versions
+v0.0.2 (9/7/22)
+- Fully textured grass block rendering
+v0.0.1 (9/6/22)
+- Quad rendering to screen with grass block side texture
 
 # How to Compile/Run
 You MUST have the includes and libs downloaded and in the correct directories if you want this code to work without any changes. The reason they are not included in this repo is because of how many files there are.
