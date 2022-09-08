@@ -3,8 +3,8 @@ This is a work in progress - it's not even close to done. It is a minecraft clon
 
 Additional Dependencies: 
 - GLFW (Graphics Library Framework - handles windows & input)
-- GLAD (OpenGL Loader/Generator)
-- GLM (OpenGL mathematics - makes complicated math like matrices and vectors easier with a library of functions)
+- GLAD (OpenGL Loader/Generator - provides ability to program modern OpenGL)
+- GLM (OpenGL Mathematics - makes complicated math like matrices and vectors easier with a library of functions)
 - STBI (or stb_image, loads images of many file types, in this case to be used for textures).
 
 # Versions
