@@ -33,4 +33,4 @@ Once that is done, you may compile/build to an executable by either:
 
 Once you have compiled/built into an executable, you should have a 'main.exe' file. To run the program, you can simply run `./main.exe`.
 
-What I do is I use the integrated Git Bash terminal in VSCode and run `make && ./main` - this is just shorthand for everything I explained. If you dont have make, you can either install it or use `mingw32-make && ./main` instead if you have MinGW installed and added to PATH.
+What I do is I use the integrated Git Bash terminal in VSCode and run `make && ./main` - this is just shorthand for what I explained before, what this does is run the makefile to build/compile the program, and then, only if the first command was successful, run main.exe. If you dont have make, you can either install it or use `mingw32-make && ./main` instead if you have MinGW installed and added to PATH.
