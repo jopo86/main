@@ -18,7 +18,7 @@ v0.0.1 (9/6/22)
 You MUST have the includes and libs downloaded and in the correct directories if you want this code to work without any changes. The reason they are not included in this repo is because of how many files there are.
 
 
-Download a zip containing the "include" and "lib" files:
+Download a zip containing the updated "include" and "lib" files:
 
 MediaFire - https://www.mediafire.com/file/qeb2kgpk74uquoc/include_lib.zip/file
 
