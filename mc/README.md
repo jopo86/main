@@ -18,7 +18,7 @@ v0.0.2 - current - (9/7/22)
 v0.0.1 (9/6/22)
 - Quad rendering to screen with grass block side texture
 
-# How to Compile/Run
+# How to Compile + Run
 You MUST have the includes and libs downloaded and in the correct directories if you want this code to work without any changes. The reason they are not included in this repo is because of how many files there are.
 
 
