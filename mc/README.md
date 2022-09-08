@@ -5,7 +5,7 @@ Additional Dependencies:
 - GLFW (Graphics Library Framework - provides ability to program windows & read keyboard/mouse input)
 - GLAD (OpenGL Loader/Generator - provides ability to use modern OpenGL functions)
 - GLM (OpenGL Mathematics - makes complicated math like matrices and vectors easier with a library of functions)
-- STBI (or stb_image, loads images of many file types, in this case to be used for textures).
+- STBI (or stb_image, loads images of many file types, in this case to be used for textures)
 
 # Versions
 v0.0.2 - current - (9/7/22)
