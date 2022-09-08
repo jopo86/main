@@ -2,7 +2,7 @@
 This is a work in progress - it's not even close to done. It is a minecraft clone I am coding using the C++ lanugage and the OpenGL rendering API. 
 
 Additional Dependencies: 
-- GLFW (Graphics Library Framework - handles windows & input)
+- GLFW (Graphics Library Framework - provides ability to program windows & input)
 - GLAD (OpenGL Loader/Generator - provides ability to program modern OpenGL)
 - GLM (OpenGL Mathematics - makes complicated math like matrices and vectors easier with a library of functions)
 - STBI (or stb_image, loads images of many file types, in this case to be used for textures).
