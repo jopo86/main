@@ -44,6 +44,7 @@ void Window::init() {
     }
 
     glViewport(0, 0, buf_width, buf_height);
+    glEnable(GL_DEPTH_TEST);
 }
 
 void Window::swap_buffers() {

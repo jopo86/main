@@ -28,5 +28,8 @@ private:
     Window* window;
     std::vector<Mesh*> meshes;
     std::vector<Shader*> shaders;
-    std::vector<Tex2D*> textures;
+    Tex2D* tex_atlas;
+    Shader* shader;
+
+    float rotation;
 };
