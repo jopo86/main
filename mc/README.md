@@ -8,8 +8,9 @@ Additional Dependencies:
 - STBI (or stb_image, loads images of many file types, in this case to be used for textures).
 
 # Versions
-v0.0.2 (9/7/22)
+v0.0.2 - current - (9/7/22)
 - Fully textured grass block rendering
+
 v0.0.1 (9/6/22)
 - Quad rendering to screen with grass block side texture
 
