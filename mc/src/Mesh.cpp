@@ -31,14 +31,4 @@ void Mesh::render() {
     glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, 0);
 }
 
-void Mesh::clear() {
-    if (vao) glDeleteVertexArrays(1, &vao);
-    if (vbo) glDeleteBuffers(1, &vbo);
-    if (ibo) glDeleteBuffers(1, &ibo);
-    vao = vbo = ibo = 0;
-    i_count = 0;
-}
-
-Mesh::~Mesh() {
-    clear();
-}
+Mesh::~Mesh() {}

@@ -3,9 +3,9 @@
 #include <vector>
 
 #include "Window.hpp"
-#include "Mesh.hpp"
+#include "Block.hpp"
+#include "BlockType.hpp"
 #include "Shader.hpp"
-#include "Tex2D.hpp"
 
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
@@ -19,15 +19,13 @@ public:
     void run();
     void mainloop();
 
-    void clear();
     ~Application();
 
 private:
     const unsigned short SCR_WIDTH, SCR_HEIGHT;
     const char* TITLE;
     Window* window;
-    std::vector<Mesh*> meshes;
-    std::vector<Shader*> shaders;
+    std::vector<Block*> blocks;
     Tex2D* tex_atlas;
     Shader* shader;
 

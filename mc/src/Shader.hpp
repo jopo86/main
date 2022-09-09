@@ -17,7 +17,6 @@ public:
     void uniform_vec3(const char* name, const GLfloat* val);
     void uniform_float(const char* name, const GLfloat val);
 
-    void clear();
     ~Shader();
 
 private:

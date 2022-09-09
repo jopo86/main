@@ -11,7 +11,6 @@ public:
     void bind();
     void unbind();
 
-    void clear();
     ~Tex2D();
 
 private:

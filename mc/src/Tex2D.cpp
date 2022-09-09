@@ -35,12 +35,4 @@ void Tex2D::unbind() {
     glBindTexture(GL_TEXTURE_2D, 0);
 }
 
-void Tex2D::clear() {
-    if (tex) glDeleteTextures(1, &tex);
-    tex = 0;
-    tex_width = tex_height = 0;
-}
-
-Tex2D::~Tex2D() {
-    clear();
-}
+Tex2D::~Tex2D() {}

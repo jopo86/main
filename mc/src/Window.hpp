@@ -23,7 +23,6 @@ public:
     double get_mouse_x();
     double get_mouse_y();
 
-    void clear();
     ~Window();
 
 private:

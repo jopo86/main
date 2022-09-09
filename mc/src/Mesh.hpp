@@ -8,7 +8,6 @@ public:
 
     void render();
     
-    void clear();
     ~Mesh();
 
 private:

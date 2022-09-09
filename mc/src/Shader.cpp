@@ -84,11 +84,4 @@ std::string Shader::read_file(const char* path) {
     return content;
 }
 
-void Shader::clear() {
-    unbind();
-    program = 0;
-}
-
-Shader::~Shader() {
-    clear();
-}
+Shader::~Shader() {}

@@ -119,17 +119,4 @@ void Window::handle_keys() {
     }
 }
 
-void Window::clear() {
-    if (window) glfwDestroyWindow(window);
-    window = 0;
-    vidmode = 0;
-    width = height = buf_width = buf_height = 0;
-    title = 0;
-    for (int i = 0; i < 1024; i++) keys[i] = 0;
-    mouse_x = mouse_y = 0;
-    render_mode = 0;
-}
-
-Window::~Window() {
-    clear();
-}
+Window::~Window() {}
