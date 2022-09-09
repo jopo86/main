@@ -13,7 +13,7 @@ Additional Dependencies:
 
 # Versions/Updates
 v0.1.0 (9/8/22)
-- Fully textured blocks of many types. I won't list them all, but they can be found easily in the `BlockTypes.hpp` file.
+- Fully textured blocks of many types. I won't list them all, but they can be found easily in the `BlockTypes.hpp` file (in `src/`).
 - When program is ran, there will be a demo of several block types rotating on the screen.
 
 v0.0.2 (9/7/22)
