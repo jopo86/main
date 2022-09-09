@@ -11,8 +11,12 @@ Additional Dependencies:
 - STBI (or stb_image, loads images of many file types, in this case to be used for textures)
 - stb_image.h file (which is all you need): https://github.com/nothings/stb/blob/master/stb_image.h
 
-# Versions
-v0.0.2 - current - (9/7/22)
+# Versions/Updates
+v0.1.0 (9/8/22)
+- Fully textured blocks of many types. I won't list them all, but they can be found easily in the `BlockTypes.hpp` file.
+- When program is ran, there will be a demo of several block types rotating on the screen.
+
+v0.0.2 (9/7/22)
 - Fully textured grass block rendering
 
 v0.0.1 (9/6/22)
