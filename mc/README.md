@@ -12,7 +12,7 @@ Additional Dependencies:
 - stb_image.h file (which is all you need): https://github.com/nothings/stb/blob/master/stb_image.h
 
 # Versions/Updates
-v0.1.0 (9/8/22)
+v0.1.0 (9/8/22 @ 8:57 PM EST)
 - Fully textured blocks of many types. I won't list them all, but they can be found easily in the `BlockTypes.hpp` file (in `src/`).
 - When program is ran, there will be a demo of several block types rotating on the screen.
 
