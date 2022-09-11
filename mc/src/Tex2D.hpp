@@ -6,6 +6,7 @@
 
 class Tex2D {
 public:
+    Tex2D(){}
     Tex2D(const char* img_path);
 
     void bind();

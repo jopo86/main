@@ -6,6 +6,7 @@
 
 class Window {
 public:
+    Window(){}
     Window(int width, int height, const char* title);
 
     void init();
@@ -22,6 +23,8 @@ public:
 
     double get_mouse_x();
     double get_mouse_y();
+
+    bool* get_keys();
 
     ~Window();
 

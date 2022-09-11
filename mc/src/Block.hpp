@@ -1,12 +1,16 @@
 #pragma once
 
+#include <vector>
+
 #include "Mesh.hpp"
 #include "Tex2D.hpp"
+#include "BlockType.hpp"
 
 #include <glm/glm.hpp>
 
 class Block {
 public:
+    Block(){};
     Block(GLfloat* type_vertices);
     Block(GLfloat* type_vertices, glm::vec3 offset);
 
@@ -16,6 +20,10 @@ public:
 
 private:
     Mesh* mesh;
+
+    GLubyte block_type;
+
+    std::vector<GLubyte> indices;
 
     GLubyte static_indices[36] = {
         0x00,0x01,0x02,

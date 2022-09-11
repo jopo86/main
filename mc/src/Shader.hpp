@@ -8,6 +8,7 @@
 
 class Shader {
 public:
+    Shader(){}
     Shader(const char* v_path, const char* f_path);
 
     void bind();
@@ -21,10 +22,8 @@ public:
 
 private:
     GLuint program;
-    const char* vs;
-    const char* fs;
 
-    void compile();
+    void compile(const char* v, const char* f);
     void add(const char* code, GLenum type);
     std::string read_file(const char* path);
 };

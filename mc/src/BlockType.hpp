@@ -1,5 +1,7 @@
 #pragma once
 
+#include <map>
+
 #include <glad/glad.h>
 
 class BlockType {
@@ -29,5 +31,10 @@ public:
     static GLfloat AcaciaLeaves[120];
     static GLfloat Water[120];
     static GLfloat Lava[120];
-    
+
+    static GLubyte to_byte(GLfloat* type_vertices);
+    static GLfloat* to_block_type(GLubyte type);
+
+    static const std::map<GLfloat*, GLubyte> byte_map;
+    static const std::map<GLubyte, GLfloat*> block_type_map;
 };

@@ -3,9 +3,9 @@
 #include <vector>
 
 #include "Window.hpp"
-#include "Block.hpp"
-#include "BlockType.hpp"
 #include "Shader.hpp"
+#include "Chunk.hpp"
+#include "Camera.hpp"
 
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
@@ -24,10 +24,10 @@ public:
 private:
     const unsigned short SCR_WIDTH, SCR_HEIGHT;
     const char* TITLE;
-    Window* window;
-    std::vector<Block*> blocks;
-    Tex2D* tex_atlas;
-    Shader* shader;
+    Window window;
+    Tex2D tex_atlas;
+    Shader shader;
+    Camera camera;
 
-    float rotation;
+    Chunk chunk;
 };

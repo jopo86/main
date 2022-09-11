@@ -31,6 +31,7 @@ void Window::init() {
     glfwGetFramebufferSize(window, &buf_width, &buf_height);
     glfwSetWindowUserPointer(window, this);
     glfwSetCursorPos(window, (double)buf_width / 2, (double)buf_height / 2);
+    glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
 
     glfwSetWindowSizeCallback(window, callback_window_size);
     glfwSetKeyCallback(window, callback_key);
@@ -87,6 +88,9 @@ double Window::get_mouse_y() {
     return mouse_y;
 }
 
+bool* Window::get_keys() {
+    return keys;
+}
 
 void Window::callback_window_size(GLFWwindow* window, int width, int height) {
     Window* w = static_cast<Window*>(glfwGetWindowUserPointer(window));
@@ -115,7 +119,7 @@ void Window::handle_keys() {
     if (keys[GLFW_KEY_ESCAPE]) glfwSetWindowShouldClose(window, GL_TRUE);
     if (keys[GLFW_KEY_LEFT_ALT]) {
         render_mode = ~render_mode;
-        glPolygonMode(GL_FRONT_AND_BACK, render_mode == 0x0 ? GL_FILL : GL_LINE);
+        glPolygonMode(GL_FRONT_AND_BACK, render_mode == 0x00 ? GL_FILL : GL_LINE);
     }
 }
 
