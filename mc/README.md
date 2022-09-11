@@ -16,7 +16,7 @@ v0.1.5 (9/10/22)
 - Created Block and Chunk classes
 - Organization / Code Cleanup
 - 3 hours of pain because I forgot to close the shader files after they are read
-- 1.5 hours of pain because arrays are pointers and can literally edit values from a different file (I was unknowingly editing the vertices in `BlockTypes.cpp` when applying the offsets to each cube)
+- 1.5 hours of pain because arrays are pointers and can literally edit values from a different file (I was unknowingly offsetting the static vertices in `BlockTypes.cpp` when applying the offsets to each cube)
 
 v0.1.0 (9/8/22)
 - Fully textured blocks of many types. I won't list them all, but they can be found easily in the `BlockTypes.hpp` file (in `src/`).
