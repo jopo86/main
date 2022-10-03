@@ -1,6 +1,7 @@
 #pragma once
 
 #include "Window.hpp"
+#include "Mesh.hpp"
 
 class Application {
 public:
@@ -16,5 +17,5 @@ private:
     const char* TITLE;
 
     Window* window;
-
+    Mesh* triangle;
 };
